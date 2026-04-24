@@ -7,7 +7,8 @@ This project focuses on correctness, simplicity, and production-like design deci
 🚀 Live Demo
 
 🌐 Frontend: https://expense-tracker-eight-ebon-83.vercel.app
-🔗 Backend API: https://dashboard.render.com/web/srv-d7lj05gjs32c7387ikag
+
+🔗 Backend API: https://expense-tracker-bca2.onrender.com
 
 📌 Features
 
@@ -42,31 +43,57 @@ Fetch API
 📁 Project Structure
 
 FENMO/
+
 │
+
 ├── backend/
+
 │   ├── data/                  # JSON storage
+
 │   ├── src/
+
 │   │   ├── __tests__/
+
 │   │   ├── db.js
+
 │   │   ├── expenses.model.js
+
 │   │   ├── expenses.router.js
+
 │   │   └── index.js
+
 │   ├── package.json
+
 │   └── jest.config.json
+
 │
+
 ├── frontend/
+
 │   ├── src/
+
 │   │   ├── components/
+
 │   │   ├── api.js
+
 │   │   ├── App.jsx
+
 │   │   ├── hooks.js
+
 │   │   ├── utils.js
+
 │   │   └── styles.css
+
 │   ├── index.html
+
 │   ├── vite.config.js
+
 │   └── package.json
+
 │
+
 └── README.md
+
 
 ⚙️ Setup Instructions
 
