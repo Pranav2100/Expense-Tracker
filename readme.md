@@ -43,55 +43,30 @@ Fetch API
 📁 Project Structure
 
 FENMO/
-
 │
-
 ├── backend/
-
-│   ├── data/                  # JSON storage
-
-│   ├── src/
-
-│   │   ├── __tests__/
-
-│   │   ├── db.js
-
-│   │   ├── expenses.model.js
-
-│   │   ├── expenses.router.js
-
-│   │   └── index.js
-
-│   ├── package.json
-
-│   └── jest.config.json
-
+│ ├── data/ # JSON storage
+│ ├── src/
+│ │ ├── tests/
+│ │ ├── db.js
+│ │ ├── expenses.model.js
+│ │ ├── expenses.router.js
+│ │ └── index.js
+│ ├── package.json
+│ └── jest.config.json
 │
-
 ├── frontend/
-
-│   ├── src/
-
-│   │   ├── components/
-
-│   │   ├── api.js
-
-│   │   ├── App.jsx
-
-│   │   ├── hooks.js
-
-│   │   ├── utils.js
-
-│   │   └── styles.css
-
-│   ├── index.html
-
-│   ├── vite.config.js
-
-│   └── package.json
-
+│ ├── src/
+│ │ ├── components/
+│ │ ├── api.js
+│ │ ├── App.jsx
+│ │ ├── hooks.js
+│ │ ├── utils.js
+│ │ └── styles.css
+│ ├── index.html
+│ ├── vite.config.js
+│ └── package.json
 │
-
 └── README.md
 
 
