@@ -71,7 +71,6 @@ FENMO/
 ├── frontend/
 
 │   ├── src/
-
 │   │   ├── components/
 
 │   │   ├── api.js
